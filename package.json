@@ -1,0 +1,12 @@
+{
+  "name": "travlr-getaways",
+  "version": "1.0.0",
+  "description": "Travlr Getaways static website server using Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
