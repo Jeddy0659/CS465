@@ -9,12 +9,14 @@ const PORT = 3000;
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'app_server', 'views'));
 
+hbs.registerPartials(path.join(__dirname, 'app_server/views/partials'));
+
 // Serve static files
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Register routes
 const travelRouter = require('./app_server/routes/travel');
-app.use('/', travelRouter);
+app.use('/travel', travelRouter);
 
 // Start server
 app.listen(PORT, () => {
