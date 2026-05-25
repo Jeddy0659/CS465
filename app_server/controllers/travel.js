@@ -1,4 +1,4 @@
-/* GET travel list page */
+/* get travel view */
 const travelList = (req, res) => {
     res.render('travel-list', { title: 'Travel List' });
 };
