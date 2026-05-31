@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Gale Reef",
+    "image": "reef1.jpg",
+    "description": "Gale Reef is a beautiful coral reef full of marine life and crystal-clear water."
+  },
+  {
+    "name": "Dawson's Reef",
+    "image": "reef2.jpg",
+    "description": "Dawson's Reef offers calm waters and stunning underwater scenery."
+  },
+  {
+    "name": "Claire's Reef",
+    "image": "reef3.jpg",
+    "description": "Claire's Reef is known for its vibrant coral and diverse fish species."
+  }
+]

@@ -3,9 +3,11 @@
 <ul>
 {{#each trips}}
     <li>
-        <h3>{{destination}}</h3>
-        <p>Price: ${{price}}</p>
-        <p>Nights: {{nights}}</p>
+        <h3>{{this.name}}</h3>
+
+        <img src="/images/{{this.image}}" alt="{{this.name}}" width="200">
+
+        <p>{{this.description}}</p>
     </li>
 {{/each}}
 </ul>
